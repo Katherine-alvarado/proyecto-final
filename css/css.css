@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3em;
+}
+
+heather {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 50em;
+    height: 10em;
+    margin-right: 4em;
+    padding: 3em;
+    background-color: aquamarine;
+}
+
+.texto {
+    width: 35em;
+    height: auto;
+    margin-left: 2.3em;
+}
+
+.encabezado{
+    width: 95em;
+    height: 10em;
+    padding: 3em;
+    background-color: #F29191;
+
+}
+
+section{
+    width: 100%;
+}
+
+.general{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 2.5em;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 30em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.img {
+    width: 30em;
+    height: 20em;
+    margin-bottom: 2em;
+    padding-left: 5em;
+    background-color: darkgray;
+
+}
+
+.img img{
+    width: 30em;
+    height: 20em;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+
+}
+
+.titulo {
+    width: 30em;
+    height: 3em;
+    margin-bottom: 2em;
+    background-color:#054035;
+    text-align: center;
+    padding-top: 0.5em;
+    
+    
+}
+
+.parrafo {
+    width: 30em;
+    height: 50em;
+    background-color: #78BFAB;
+    padding: 2.5em;
+}
+
+-------------------------------------------------------------------
+
+@media only screen and (max-width: 767px) {
+    
+    *{
+    margin: 0;
+    padding: 0px;
+    font-size: 10px;
+    box-sizing: border-box;
+    }
+
+    body {
+        padding: 3em;
+    }
+
+    heather {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo {
+        width: 20em;
+        height: 7em;
+        margin-right: 2em;
+        padding: 3em;
+    }
+
+    .texto {
+        width: 30em;
+        height: auto;
+        margin-left: 2.3em;
+    }
+
+    .encabezado{
+        width: 65em;
+        height: 10em;
+        padding: 3em;
+        background-color: #F29191;
+
+    }
+
+    section{
+        width: 100%;
+    }
+
+    .general{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 2.5em;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .producto {
+        width: 30em;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    .img {
+        width: 30em;
+        height: 20em;
+        margin-bottom: 2em;
+        padding-left: 5em;
+    }
+
+    .titulo {
+        width: 30em;
+        height: 3em;
+        margin-bottom: 2em;
+        background-color:#054035;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+
+    .parrafo {
+        width: 30em;
+        height: 50em;
+        background-color: #78BFAB;
+    }
+    
+}
